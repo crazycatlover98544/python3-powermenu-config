@@ -7,6 +7,7 @@ _python3-powermenu-config_ is a simple GUI configuration utility for my project,
 |python3 >= 3.7|[https://www.python.org](https://www.python.org)|
 |python3-tk|[https://www.python.org](https://www.python.org)|
 |CustomTkinter|[https://customtkinter.tomschimansky.com/](https://customtkinter.tomschimansky.com/)|
+|python3-powermenu|[https://github.com/crazycatlover98544/python3-powermenu/](https://github.com/crazycatlover98544/python3-powermenu/)|
 
 CustomTkinter is not found in standard Debian repositories (it may be found in others), so you will likely need to create a venv. If you do not know how to do this, then you can look it up. There are many guides that instruct you on how to create a venv.
 

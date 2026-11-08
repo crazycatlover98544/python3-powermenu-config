@@ -13,6 +13,8 @@ CustomTkinter is not found in standard Debian repositories (it may be found in o
 ## Screenshot
 ![Screenshot of python3-powermenu-config](screenshot.png)
 
+(Screenshot taken in dark mode, this program also has a light mode)
+
 ## Extra Information
 `yesno.py` is a helper script that has a custom dialogue for Yes/No prompts, as tkinter's default does not look the best on modern linux with a desktop environment like KDE or GNOME. This program depends on that helper script, and will error out without it. Before opening an issue, be sure you have `yesno.py` in the same directory as this program, or installed as a python3 module.
 

@@ -19,5 +19,11 @@ CustomTkinter is not found in standard Debian repositories (it may be found in o
 ## Extra Information
 `yesno.py` is a helper script that has a custom dialogue for Yes/No prompts, as tkinter's default does not look the best on modern linux with a desktop environment like KDE or GNOME. This program depends on that helper script, and will error out without it. Before opening an issue, be sure you have `yesno.py` in the same directory as this program, or installed as a python3 module.
 
+`generate-default-configuration.py` is an executable script that generates the default configuration. The arguments for this are as follows:
+|Argument|Description|
+| --- | --- |
+|`--configfile=[filepath]`|Writes the configuration file to that path instead. Expects a file at the end, not a directory. Example: `/home/test/test.json`|
+|`--no-warn-overwrite`|Give no warning for overwriting the configuration.|
+
 ## License
 This program is licensed under the MIT license. To view this license, open up LICENSE or go to the following URL: [https://opensource.org/license/mit](https://opensource.org/license/mit)

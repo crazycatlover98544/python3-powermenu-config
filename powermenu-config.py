@@ -19,11 +19,21 @@ I am not responsible if this harms your computer.
 
 import tkinter as tk
 from tkinter import messagebox
-import customtkinter as ctk
-from yesno import yesno
-import json
 import sys
+import json
 import os
+
+try:
+    import customtkinter as ctk
+except (ModuleNotFoundError,ImportError):
+    messagebox.showerror('Module not Found','The module "customtkinter" was not found. Try running "pip install customtkinter".')
+    sys.exit(1)
+
+try:
+    from yesno import yesno
+except (ModuleNotFoundError,ImportError):
+    messagebox.showerror('Module not Found','The module "yesno" was not found. This is a custom module, and can be found in this program\'s GitHub repository as "yesno.py". You can also format this module as a proper module, and put it where you put global Python modules.')
+    sys.exit(1)
 
 root = ctk.CTk()
 root.title('Python3-powermenu Configuration')
